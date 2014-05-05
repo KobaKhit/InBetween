@@ -6,7 +6,7 @@ This program plays the card game In Between with the user. The user will be firs
 The program has two global variables: `MY_RAND_MAX` and `NEXT_MY_RAND`.  `MY_RAND_MAX`  is an integer set to 16807 and is used by the `my_rand ()` function to produce random integers in the interval [1, 16807).  `NEXT_MY_RAND` is an unsigned integer type set to 1 and is used by `my_srand()` function to initialize the random generating function `my_rand()`.
 The program has ten prototypes:
 
-1.	`string card_name(int card)`\n
+1.	`string card_name(int card)`
 Takes in an integer in the range 0..51, designating a card from a standard bridge deck. Returns the name of its argument (ex.g. 2 for of Spades, Jack for Jack of clubs).
 
 2.	`int card_ranking(int card)`
