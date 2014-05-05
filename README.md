@@ -1,6 +1,6 @@
 #InBetween
 ##User manual 
-This program plays the card game In Between with the user. The user will be first asked whether he/she wants the ace to be ranked as the highest or the lowest card in the game.  Then the user is dealt two cards and asked if he thinks that the next card is going to be in between. After user responds the program deals the card and informs the user whether he lost or won. Then the program deals two cards. The game continues until there are no cards left in the deck. At the end the program informs the user of his/her win-lose record.
+This program plays the card game In Between with the user. The user will be first asked whether he/she wants the ace to be ranked as the highest or the lowest card in the game.  Then the user is dealt two cards and asked if he/she thinks that the next card is going to be in between. After user responds the program deals the card and informs the user whether he/she lost or won. Then, the program deals two cards, again. The game continues until there are no cards left in the deck. At the end the program informs the user of his/her win-lose record.
 
 ##System manual
 The program has two global variables: `MY_RAND_MAX` and `NEXT_MY_RAND`.  `MY_RAND_MAX`  is an integer set to 16807 and is used by the `my_rand ()` function to produce random integers in the interval [1, 16807).  `NEXT_MY_RAND` is an unsigned integer type set to 1 and is used by `my_srand()` function to initialize the random generating function `my_rand()`.
