@@ -31,7 +31,7 @@ Does not take any arguments. Initializes a vector of 52 cards where the elements
 8.	`void shuffleDeck(vector<int> &deck)`
 Takes in a vector passed by reference. Shuffles a vector by swapping the nth element in vector with the ith element where n is set to the number of elements in the vector and i is a randomly generated integer by function `my_rand()`. After every swap n is decreased by 1. The swapping continues until n is zero.
 
-9. & 10.	`int min(int a, int b) and int max(int a, int b)`
+9. & 10.	`int min(int a, int b)` and `int max(int a, int b)`
 Both take in two integers. `min(a,b)` returns the smaller of the two and `max(a,b)` does the opposite.
 
 
